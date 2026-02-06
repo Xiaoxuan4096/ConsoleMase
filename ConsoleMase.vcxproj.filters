@@ -13,10 +13,24 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="头文件\MyMatrix2D">
+      <UniqueIdentifier>{1ccf9e14-dba8-45df-8092-60cac1243b40}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\MyMatrix2D">
+      <UniqueIdentifier>{22c83578-c267-4fce-92f5-04d96d289cb6}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="ConsoleMaze.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="MyMatrix\MyMatrix2D.cpp">
+      <Filter>源文件\MyMatrix2D</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="MyMatrix\MyMatrix2D.h">
+      <Filter>头文件\MyMatrix2D</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
