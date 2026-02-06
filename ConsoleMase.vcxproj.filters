@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="ConsoleMase.cpp">
+    <ClCompile Include="ConsoleMaze.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
