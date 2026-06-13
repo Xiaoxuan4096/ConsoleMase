@@ -156,6 +156,10 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="MyMatrix2D.h" />
+    <ClInclude Include="resource.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="MyMatrix2D.rc" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
